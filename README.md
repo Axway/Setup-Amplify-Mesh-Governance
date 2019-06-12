@@ -18,4 +18,4 @@ If you already have a Kubernetes cluster within an AWS/EC2 environment then skip
 
 [Step 4](https://github.com/Axway/Setup-Amplify-Mesh-Governance/wiki/Step-4.-Create-an-Amplify-Central-environment,-add-the-Service-Mesh-to-your-Kubernetes-cluster-installation,-and-finalize-DNS-setup-for-the-Domain-Edge-Gateway). Create an Amplify Central environment, perform Istio/Amplify Central Service Mesh installation, and setup DNS for the Domain Edge Gateway.
 
-[Step 5](https://github.com/Axway/Setup-Amplify-Mesh-Governance/wiki/Step-5.--Delete-the-Cluster).  Delete the Cluster.
+[Step 5](https://github.com/Axway/Setup-Amplify-Mesh-Governance/wiki/Step-5.--Delete-the-Cluster).  Later, delete the Cluster when no longer needed.
