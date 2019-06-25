@@ -18,4 +18,6 @@ If you already have a Kubernetes cluster within an AWS/EC2 environment then skip
 
 [Step 4](https://github.com/Axway/Setup-Amplify-Mesh-Governance/wiki/Step-4.-Create-an-Amplify-Central-environment-and-connect-your-Kubernetes-cluster-to-it). Create an Amplify Central environment and connect your Kubernetes cluster to it.
 
+[Step 5](https://github.com/Axway/Setup-Amplify-Mesh-Governance/wiki/Step-5.-Remove-the-Axway-Mesh-and-Agents-from-your-Cluster)  Later, remove the Axway Mesh and Agents from your cluster.
+
 [Step 6](https://github.com/Axway/Setup-Amplify-Mesh-Governance/wiki/Step-6.--Delete-the-Cluster).  Later, delete the Cluster when no longer needed.
