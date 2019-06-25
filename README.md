@@ -12,7 +12,7 @@ Note: These steps are based on having a Linux client available to install the re
 If you already have the tools needed to manage an EC2 instance on Amazon Web Services (AWS) then skip to Step 2.
 
 [Step 1](https://github.com/Axway/Setup-Amplify-Mesh-Governance/wiki/Step-1.-Install-required-tools-to-manage-the-AWS-EC2-instance). Install required tools to manage the EC2 instance (AWS CLI, Kubectl, Kops, Helm).
-Here is a link to pull a docker client image that has the tools already in place:  
+Here is a link to pull a docker client image that has the tools already in place: [Link](https://github.com/u1i/amplify-cli) 
 
 If you already have a Kubernetes cluster within an AWS/EC2 environment then skip to Step 3.
 
