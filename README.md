@@ -6,8 +6,8 @@ We are providing this initial outline for AWS/EC2 plus Kubernetes, other k8s inf
 Read our [setup wiki](https://github.com/Axway/Setup-Amplify-Mesh-Governance/wiki) to build, prepare and deploy Amplify Mesh Governance. 
 
 Notes: 
-These steps are based on having a Linux client available to install the required tools to manage an AWS EC2 instance.
-The AMPLIFY Central Mesh Governance feature is currently only enabled for the primary (ie, original) API Admin account for your organization.  It will not be visible if your role is API Developer or Consumer.
+- These steps are based on having a Linux client available to install the required tools to manage an AWS EC2 instance.
+- The AMPLIFY Central Mesh Governance feature is currently only enabled for the primary (ie, original) API Admin account for your organization.  It will not be visible if your role is API Developer or Consumer.
 
 ## Prepare your client and Kubernetes cluster
 
