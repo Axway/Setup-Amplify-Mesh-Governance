@@ -3,7 +3,7 @@
 A Wiki page created as a quick start guide to building an Amplify Central managed Service Mesh hosted on a Kubernetes Cluster. 
 We are providing this initial outline for AWS/EC2 plus Kubernetes, other k8s infrastructure will be coming in the future.
 
-Read our [setup wiki](https://github.com/Axway/Setup-Amplify-Mesh-Governance/wiki) to build, prepare and deploy Amplify Mesh Governance. 
+Read our [setup wiki](https://github.com/Axway/Setup-Amplify-Mesh-Governance/wiki) to build, prepare and deploy Amplify Mesh Governance. The quickstart guide contains the steps detailed below. 
 
 Notes: 
 - These steps are based on having a Linux client available to install the required tools to manage an AWS EC2 instance.
