@@ -1,0 +1,36 @@
+als:
+  sanitization:
+    pathFilters:
+    - keyMatch: "list" # Regex to remove path segment "list"
+    argsFilters:
+      remove:
+        - keyMatch: "id" # Regex to remove query parameter "id" 
+      sanitize:
+        - keyMatch: "city"  # Regex to sanitize first three characters od query param "city"
+          valueMatch: "^.{0,3}"
+    requestHeaderFilters:
+      remove:
+        - keyMatch: "^x-amplify.*" # Regex to remove all x-amplify headers in Reqheaders
+      sanitize:
+        - keyMatch: "x-axway"
+          valueMatch: "^.{0,3}" # Regex to sanitize first three characters of all x-axway headers in Reqheaders
+    responseHeaderFilters:
+      remove:
+        - keyMatch: "x-envoy.*" # Regex to remove all x-envoy headers in Resheaders
+      sanitize:
+        - keyMatch: "ip"  # Regex to sanitize ip in ResHeaders as per Regex specified in Valuematch 
+          valueMatch: "\d+$"
+
+#** Also Valid Configuration** 
+# als:
+#   sanitization:
+#     pathFilters:
+#     argsFilters:
+#       remove:
+#       sanitize:
+#     requestHeaderFilters:
+#       remove:
+#       sanitize:
+#     responseHeaderFilters:
+#       remove:
+#       sanitize:
