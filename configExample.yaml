@@ -20,17 +20,3 @@ als:
       sanitize:
         - keyMatch: "ip"  # Regex to sanitize ip in ResHeaders as per Regex specified in Valuematch 
           valueMatch: ".{0,3}$"
-
-#** Also Valid Configuration** 
-# als:
-#   sanitization:
-#     pathFilters:
-#     argsFilters:
-#       remove:
-#       sanitize:
-#     requestHeaderFilters:
-#       remove:
-#       sanitize:
-#     responseHeaderFilters:
-#       remove:
-#       sanitize:
